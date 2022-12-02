@@ -62,10 +62,5 @@
 		"prettier": "^2.6.0",
 		"tinycolor2": "^1.4.2",
 		"vsce": "^2.7.0"
-	},
-	"__metadata": {
-		"id": "OwlDarkerTheme",
-		"publisherDisplayName": "Owl Darker Theme",
-		"publisherId": "OwlDarkerTheme"
 	}
 }

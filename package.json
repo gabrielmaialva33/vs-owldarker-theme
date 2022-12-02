@@ -1,7 +1,7 @@
 {
 	"name": "owldarker-theme",
-	"version": "1.0.1",
-	"displayName": "Owl Darker Official",
+	"version": "1.0.0",
+	"displayName": "Owl Darker",
 	"homepage": "https://github.com/gabrielmaialva33",
 	"description": "Official Owl Darker Theme. A dark theme for many editors, shells, and more.",
 	"publisher": "owldarker-theme",
@@ -14,15 +14,10 @@
 		"vsce-publish": "vsce publish"
 	},
 	"maintainers": [
-		"Derek P Sifford <dereksifford@gmail.com>"
+		"Gabriel Maia <gabrielmaialva33@gmail.com>"
 	],
 	"contributors": [
-		"Krzysztof Wisznarewski",
-		"Daniel Ramos",
-		"Eric Jackson",
-		"Elliott Pogue",
-		"Ajit Singh",
-		"Teddy Bradford"
+		"Gabriel Maia"
 	],
 	"repository": {
 		"type": "git",

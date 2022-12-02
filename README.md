@@ -19,7 +19,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 ## Community
 
 * [GitHub](https://github.com/owldarker/owldarker-theme/discussions) - Best for asking questions and discussing issues.
-* 
+
 ## Contributing
 
 If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).

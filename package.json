@@ -1,0 +1,76 @@
+{
+	"name": "owldarker-theme",
+	"version": "1.0.1",
+	"displayName": "Owl Darker Official",
+	"homepage": "https://github.com/gabrielmaialva33",
+	"description": "Official Owl Darker Theme. A dark theme for many editors, shells, and more.",
+	"publisher": "owldarker-theme",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/owldarker.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
+	"maintainers": [
+		"Derek P Sifford <dereksifford@gmail.com>"
+	],
+	"contributors": [
+		"Krzysztof Wisznarewski",
+		"Daniel Ramos",
+		"Eric Jackson",
+		"Elliott Pogue",
+		"Ajit Singh",
+		"Teddy Bradford"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gabrielmaialva33/vs-owldarker-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/gabrielmaialva33/vs-owldarker-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"owldarker",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#15121E",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Owl Darker",
+				"uiTheme": "vs-dark",
+				"path": "./theme/owldarker.json"
+			},
+			{
+				"label": "Owl Darker Soft",
+				"uiTheme": "vs-dark",
+				"path": "./theme/owldarker-soft.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^4.1.0",
+		"prettier": "^2.6.0",
+		"tinycolor2": "^1.4.2",
+		"vsce": "^2.7.0"
+	},
+	"__metadata": {
+		"id": "2885a01e-565e-4dec-8aa3-1f550acd8427",
+		"publisherDisplayName": "Owl Darker Theme",
+		"publisherId": "2885a01e-565e-4dec-8aa3-1f550acd8427"
+	}
+}

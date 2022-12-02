@@ -4,7 +4,7 @@
 	"displayName": "Owl Darker",
 	"homepage": "https://github.com/gabrielmaialva33",
 	"description": "Official Owl Darker Theme. A dark theme for many editors, shells, and more.",
-	"publisher": "owldarker-theme",
+	"publisher": "OwlDarkerTheme",
 	"license": "MIT",
 	"scripts": {
 		"build": "node ./scripts/build.js",

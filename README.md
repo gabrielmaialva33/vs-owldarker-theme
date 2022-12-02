@@ -18,7 +18,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 ## Community
 
-* [GitHub](https://github.com/owldarker/owldarker-theme/discussions) - Best for asking questions and discussing issues.
+* [GitHub](https://github.com/gabrielmaialva33/vs-owldarker-theme/discussions) - Best for asking questions and discussing issues.
 
 ## Contributing
 

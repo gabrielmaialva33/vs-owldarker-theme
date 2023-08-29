@@ -1,8 +1,8 @@
 {
 	"name": "owldarker-theme",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"displayName": "Owl Darker",
-	"homepage": "https://github.com/gabrielmaialva33",
+	"homepage": "https://github.com/gabrielmaialva33/vs-owldarker-theme",
 	"description": "Official Owl Darker Theme. A dark theme for many editors, shells, and more.",
 	"publisher": "OwlDarkerTheme",
 	"license": "MIT",
@@ -46,21 +46,35 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Owl Darker",
+				"label": "OwlDarker Theme With Italics",
 				"uiTheme": "vs-dark",
-				"path": "./theme/owldarker.json"
+				"path": "./themes/owldarker-theme-with-italics.json"
 			},
 			{
-				"label": "Owl Darker Soft",
+				"label": "OwlDarker Theme With Italics Less Dark",
 				"uiTheme": "vs-dark",
-				"path": "./theme/owldarker-soft.json"
+				"path": "./themes/owldarker-theme-with-italics-less-dark.json"
+			},
+			{
+				"label": "OwlDarker Theme With Italics Less Dark 2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owldarker-theme-with-italics-less-dark-2.json"
+			},
+			{
+				"label": "OwlDarker Theme No Italics",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owldarker-theme-no-italics.json"
+			},
+			{
+				"label": "OwlDarker Theme No Italics Less Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owldarker-theme-no-italics-less-dark.json"
+			},
+			{
+				"label": "OwlDarker Theme No Italics Less Dark 2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owldarker-theme-no-italics-less-dark-2.json"
 			}
 		]
-	},
-	"devDependencies": {
-		"js-yaml": "^4.1.0",
-		"prettier": "^2.6.0",
-		"tinycolor2": "^1.4.2",
-		"vsce": "^2.7.0"
 	}
 }

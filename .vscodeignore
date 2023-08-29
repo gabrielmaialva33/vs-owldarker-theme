@@ -10,3 +10,4 @@ tests/**
 generate.js
 jsconfig.json
 known_issues.md
+vsc-extension-quickstart.md
